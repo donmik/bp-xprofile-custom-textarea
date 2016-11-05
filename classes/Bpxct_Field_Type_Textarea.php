@@ -75,4 +75,19 @@ class Bpxct_Field_Type_Textarea extends BP_XProfile_Field_Type_Textarea {
         </div>
     <?php
     }
+
+    /**
+     * Remove validation_whitelist to check if is_valid.
+     *
+     * This method doesn't support chaining.
+     *
+     * @since 0.2.0
+     *
+     * @param string|array $values Value to check against the registered formats.
+     * @return bool True if the value validates
+     */
+    public function is_valid( $values ) {
+        $this->validation_whitelist = null;
+        return parent::is_valid( $values );
+    }
 }

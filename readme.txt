@@ -3,7 +3,7 @@ Contributors: donmik, johnywhy
 Tags: buddypress, xprofile, fields, textarea, richtext
 Requires at least: 4.0
 Tested up to: 4.4
-Stable tag: 0.1.1
+Stable tag: 0.2
 License: GLPv2 or later
 
 Replace Textarea buddypress field type with my own custom textarea.
@@ -26,6 +26,9 @@ richtext editor if you want using a checkbox in admin.
 7. Enjoy!
 
 == Changelog ==
+
+= 0.2 =
+* Solve a bug, the content of the field was not being saved.
 
 = 0.1.1 =
 * Thanks again to johnywhy, I've modified my code to use the "bp_xprofile_is_richtext_enabled_for_field"

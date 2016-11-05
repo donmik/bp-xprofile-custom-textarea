@@ -3,7 +3,7 @@
     Plugin Name: Bp Xprofile Custom Textarea
     Plugin URI: http://donmik.com/en/?p=1226&preview=true
     Description: Replace Textarea buddypres field type with my own custom textarea.
-    Version: 0.1.1
+    Version: 0.2
     Author: donmik
     Author URI: http://donmik.com
 */
